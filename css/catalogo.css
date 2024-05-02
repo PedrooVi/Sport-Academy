@@ -7,7 +7,7 @@
 body{
     border: 0;
     font-family:'Oswald', sans-serif ;
-    background-image: url(../img/fundo.jpg);
+    background-color: #E7E7E7;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,7 @@ body{
 
 .cabecalho{
     background-color: #051119;
-    border-bottom: solid 5px #E48743;
+    border-bottom: solid 3px #E48743;
     height: 80px;
     box-sizing: content-box;
 }
@@ -24,22 +24,11 @@ body{
     display: inline-block;
     height: 90px;
     padding: 15px;
+    cursor: pointer;
 }
 
 .logo img{
     height: 100%;
-}
-
-.menu-toggle{
-    float: right;
-    color: #eee;
-    background-color: #555;
-    border: solid 1px #777;
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px 20px;
-    margin: 20px 15px;
-    cursor: pointer;
 }
 
 .menu{
@@ -91,43 +80,52 @@ body{
     color: #eee;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+nav.menu-lateral{
+    width: 150px;
+    height: 100%;
+    background-color: #051119;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #E48743;
+    position: fixed;
+    left: 0;
 }
 
-main h1 {
-    font-size: 100px;
-    color: #eee;
-    font-weight: bold;
+nav.menu-lateral:hover{
+    width: 200px;
 }
 
-main h2{
-    font-size: 80px;
+.menu-toggle{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.menu-toggle > i{
     color: #E48743;
-    font-weight: bold;
-}
-
-main p{
-    font-size: 50px;
-    color: #eee;
-    font-weight: bold;
-}
-
-.btn-catalogo{
-    margin: 15px;
-    width: 80%;
-    height: 60px;
-    background-color:  #051119;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 20px;
+    font-size: 24px;
     cursor: pointer;
-    color: #eee;
 }
 
-.btn-catalogo:hover{
+.menu-lateral ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a {
+    color: #E7E7E7;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+ul li.item-menu:hover{
     background-color: #E48743;
 }
+
+ul li.item-menu{
+    transition: .1s;
+}
+
+
+
