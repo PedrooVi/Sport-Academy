@@ -131,3 +131,25 @@ main p{
 .btn-catalogo:hover{
     background-color: #E48743;
 }
+
+.botao {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+ }
+
+ .botao button{
+    width: 100%;
+    height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #051119;
+    color: #eff1f0;
+    border: none;
+    border-radius: 20px;
+ }
+
+ .botao button:hover{
+    background-color: #E48743;
+ }
+
