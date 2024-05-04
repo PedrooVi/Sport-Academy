@@ -106,8 +106,7 @@ h2{
 
 .produtos{
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.3);
-    height: 320px;
-    width: 250px;
+    width: 300px;
     border: solid 1px #ccc;
     margin:20px;
     padding: 5px;
@@ -123,12 +122,27 @@ h2{
 
 }
 
-.produtos-info{
-    height: 30px;
+
+
+.avaliacao{
+    color: #E48743; 
+    margin-bottom: 5px;
 }
 
+
+.bi{
+    font-size: 0.8em;
+}
+
+.avaliacao p{
+    font-size: 0.7em;
+    color: #555;
+}
+
+
+
 .produtos h4{
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0px;
 }
 
