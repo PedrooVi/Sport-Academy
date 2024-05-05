@@ -208,13 +208,14 @@ body{
 
     .container{
         width: 100%;
+        left: 0;
     }
     .blur{
         width: 100%;
         height: 200px;
         position: absolute;
         top: 19%;
-        left: 41%;
+        left: 50%;
         height: 200px;
 
     }
