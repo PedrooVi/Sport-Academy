@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">    
-       <section> <link rel="stylesheet" href="../css/login.css">
+       <section> <link rel="stylesheet" href="../css/registrar.css">
     <title>Login</title>
 </head>
 <body>
 
     <section class="container">
+    
 
         <div class="embrulho">
 
-            <div class="foto-fundo"><img src="../img/FundoLogin.jpg" alt=""> </div>
+            <div class="foto-fundo">
+                <img src="../img/FundoRegistrar.jpg" alt=""> 
+            </div>
        
     
             <article class="blur">
 
                 <div class="containerText">
-                    <h1>Faça login e ganhe <span>descontos</span> nos nossos produtos. </h1>
+                    <h1>Se registre e ganhe <span>descontos</span> nos nossos produtos.</h1>
                     <p>Desde 1995 fornecendo os melhores artigos esportivos.</p> 
                 </div> 
 
@@ -32,7 +35,7 @@
     <section class="formulario">
 
         <div class="logo">
-            
+
             <a href="#" class="ConteinerLogo">
                 <img src="../img/SA logo Preta.png" alt="Logo">
             </a>
@@ -60,32 +63,25 @@
                     <input type="password" id="password">
                 </div>
 
+                <div class="grupoForm">
+                    <label for="repeatPassword">Repita a senha</label>
+                    <input type="password" id="repeatPassword">
+                </div>
+
             </article>
 
-            <article class="relembrar">
-
-               <div class="lembrar">
-                   <input type="checkbox" value="relembrar" id="lembrar">
-                   <label for="Lembrar">Lembrar</label>
-               </div>
-
-               <a href="#">Esqueceu a senha?</a>
-
-           </article>
-
-            <button class="loginBtn"> 
-                <a href="catalogo.html">Entrar</a>
+           <button class="cadastroBtn">
+                <a href="catalogo.html">Criar conta</a>
             </button>
            
-           
-           <button class="google-login">
-               <a href="catalogo.html">Entrar com Google</a>
+            <button class="google-login">
+                <a href="catalogo.html">Entrar com Google</a>
             </button>
             
             <div class="linha"></div>
 
-            <button class="cadastroBtn">
-                <a href="registrar.html">Cadastrar</a>
+            <button class="login">
+                <a href="login.html">Login</a>
             </button>
 
         </article>   
@@ -93,5 +89,5 @@
     </section>
 
 </body>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/registrar.css">
 </html>
